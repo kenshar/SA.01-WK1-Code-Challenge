@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed Detactor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- title and description -->
+    <div class="container">
+        <h1>Speed Detector</h1>
+        <!-- Description -->
+        <p class="description">
+            For every 5 km/h above 70 km/h, you'll receive one demerit point.
+            If you accumulate 12 or more points, your license will be suspended.
+           Please drive safely!
+        </p>
+        <!-- Input field for speed -->
+        <div class="input-group">
+            <label for="speedInput">Car Speed (km/h):</label>
+            <input type="number" id="speedInput" placeholder="Enter speed " min="0" step="1">
+        </div>
+        <!-- Button to calculate demerit points -->
+        <button id="calculateBtn">Demerit Points</button><br><br>
+        <button id="Reset">Reset</button>
+        <!-- Result display area -->
+        <div class="result">
+            <h3>Result:</h3>
+            <div id="output">Please enter a speed value</div>
+            
+            <div class="points-display">
+
+               
+            </div>
+        </div>
+    </div>
+
+    <script src="speed.js"></script>
+</body>
+</html>

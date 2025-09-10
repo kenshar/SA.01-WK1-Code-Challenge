@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Net Salary Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- title and description -->
+    <div class="container">
+        <h1>Net Salary Calculator</h1>
+
+<!-- Input Section -->
+        <div class="input-section">
+            <div class="input-group">
+                <label for="basicSalary">Basic Salary (KES)*</label>
+                <input type="number" id="basicSalary" placeholder="e.g. 50000" min="0" step="0.01">
+            </div>
+           
+            <div class="input-group">
+                <label for="benefits">Benefits (KES) - House, Transport, etc.</label>
+                <input type="number" id="benefits" placeholder="e.g. 15000" min="0" step="0.01" value="0">
+            </div>
+            <!-- Calculate Button -->
+
+            <button id="calculateBtn">Calculate Net Salary</button>
+        </div>
+
+        <div id="results" class="results-section">
+            <!-- Results will be displayed here -->
+        </div>
+    </div>
+    <script src="salary.js"></script>
+</body>
+</html>
