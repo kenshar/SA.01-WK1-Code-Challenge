@@ -18,19 +18,19 @@ https://www.kra.go.ke/en/individual/calculate-tax/calculating-tax/paye
 
 
 ## Installation
-You use git clone to be able to download the documents in the GitHub
+You use git clone to be able to download the documents in the GitHub. Open the content in Visual Studio
 
 ## Installation Requirements
 Git
 
 ### Installation instruction
 ```
-Git clone https://github.com/
+Git clone https://github.com/kenshar/SA.01-WK1-Code-Challenge.git
 
 ```
 
 # Live Link
-[Git](gh-pages link)
+[Git](main link)
 
 ## Technologies used
 HTML
